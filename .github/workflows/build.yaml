@@ -42,4 +42,4 @@ jobs:
         run: echo ${{ steps.docker_build.outputs.digest }}
 
       - name: Done
-        run: Completed!!!
+        run: echo Completed!!!
