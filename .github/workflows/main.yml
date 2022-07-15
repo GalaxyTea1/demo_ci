@@ -40,3 +40,6 @@ jobs:
 
       - name: Verify
         run: echo ${{ steps.docker_build.outputs.digest }}
+
+      - name: Done
+        run: Completed!!!
