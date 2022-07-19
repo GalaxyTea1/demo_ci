@@ -12,3 +12,5 @@ jobs:
             echo What is file?
             ls -l
             echo Wow!
+      - name: demo
+        run: ls -a
