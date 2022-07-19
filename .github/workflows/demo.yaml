@@ -6,7 +6,9 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      name: log hello
-      run: echo Hello!
-      echo Hi
-
+      - name: log hello
+        run: |
+            echo Hello!
+            echo What is file?
+            ls -l
+            echo Wow!
